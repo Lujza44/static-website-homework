@@ -1,0 +1,122 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto 1fr;
+    justify-content: center;
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000000;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    font-size: 40px;
+}
+
+.grid-container > :last-child {
+    justify-self: end;
+    padding: 10px 20px 10px 20px;
+}
+
+.grid-container li a {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+
+    display: block;
+    padding: 10px 20px 10px 20px;
+
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.grid-container a:hover {
+    background-color: #333;
+}
+
+#active {
+    background-color: #008000;
+    color: #ffffff;
+}
+
+.vertical-list li {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Verdana, sans-serif;
+    font-size: 23px;
+    margin: 0;
+}
+
+p {
+    padding: 0 20px 20px 40px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+h1 {
+    padding: 30px 20px 20px 20px;
+    font-size: 40px;
+}
+
+h2 {
+    padding: 0px 20px 20px 20px;
+    font-size: 35px;
+}
+
+h3 {
+    padding: 0px 20px 20px 20px;
+    font-size: 30px;
+}
+
+article {
+    padding: 0;
+}
+
+.image-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 100%; 
+    height: auto;
+    border: 10px dashed #ffffff;
+}
+
+section > p {
+    font-style: italic;
+}
+
+table {
+    padding: 0px 20px 20px 20px;
+}
+
+th, td {
+    border: 1px solid #ffffff;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+}
+
+th {
+    background-color: #222222;
+}
+
+a {
+    color: green;
+}
+
+a:hover {
+    color: yellow
+}
+
+a:visited {
+    color: brown;
+}
